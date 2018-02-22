@@ -1,0 +1,59 @@
+Git config
+Git init
+
+Git clone
+	git clone URL
+
+Git add
+	git add filename.extension
+	git add .
+	git add --All
+
+git Commit
+	git commit -m "Reason for change"
+
+git push
+	git push
+
+git status
+
+git log
+
+git pull
+
+Create and switch over;
+git checkout -b branchname sourcebranch
+
+Switch over
+git checkout branch
+
+
+Merge from one branch to another branch
+git merge
+source : develop destination : master
+
+master > git merge develop
+(Should be executed in destination path)
+
+
+git push --set-upstream origin develop
+
+git remote -v
+
+git remote rename origin gitrepo
+
+git push --set-upstream gitrepo develop
+
+
+git remote add origin URL
+
+
+ls
+
+ESC :wq
+
+vi index.txt
+
+cat index.txt
+
+git reset index.txt
